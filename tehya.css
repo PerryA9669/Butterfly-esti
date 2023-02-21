@@ -1,0 +1,13 @@
+body {
+    background-image:linear-gradient(to right, rgb(242,112,156), rgb(255,148,114));
+    padding: 0;
+    margin:0;
+    text-align: center;
+    font-family: 'Papyrus', fantasy;
+}
+/* header style */
+
+.container{
+    display:flex;
+    flex-direction: column;
+}
