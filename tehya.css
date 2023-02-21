@@ -36,3 +36,24 @@ body {
     font-family:'Papyrus', fantasy;
     text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
+.header-link a:hover{
+    color:pink;
+}
+/* Main part of website */
+
+.main{
+    display:flex;
+    color: #f9faf8;
+    background-image:linear-gradient(to right, rgb(242,112,156),rgb(255,148,114));
+    align-items:center;
+    justify-content:center;
+    padding:90px;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+.main-2{
+    flex-basis:400px;
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+}
