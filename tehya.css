@@ -96,4 +96,73 @@ h1{
     text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
     color:white;
 }
+.content-info{
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000ff;
+    color:white;
+}
+.content-info img{
+    width: 200px;
+    height:200px;
+    object-fit: cover;
+    border: 4px solid hotpink;
+    border-radius: 15px;
+    margin: 5px 20px 0px 20px;
+}
+/* Info part */
 
+.info {
+    display:flex;
+    flex-direction: column;
+    padding: 0 200px;
+}
+.info p{
+    font-size:36px;
+    color:white;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: 'Papyrus', fantasy;
+    text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff
+}
+/* Schedule part */
+
+.schedule{
+    margin:50px 200px;
+    padding: 10px 80px;
+    display:flex;
+    align-items: center;
+    border-radius: 5px;
+    border-color:none;
+}
+.schedule-item{
+    flex:1;
+}
+.schedule-text{
+    text-align: left;
+    text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff
+}
+.schedule-text p{
+    color:white;
+    opacity:0.7;
+    margin: 5px 30px 30px 50px;
+    text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff
+}
+h3{
+    color: #fff;
+    font-family: 'Papyrus', fantasy;
+    padding:0;
+    margin:30px 0px 0px 50px;
+}
+.schedule-button button:hover{
+    color:pink;
+    background-color: white;
+}
+/* bottom of page footer */
+
+.footer{
+    background-image: linear-gradient(to right, rgb(242,112,156),rgb(255,148,114));
+    color: #fff;
+    font-family: 'Papyrus', fantasy;
+}
